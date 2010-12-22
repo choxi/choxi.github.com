@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Melbourne;
+  src: url("/fonts/Melbourne_reg.otf"); }
+
+@font-face {
+  font-family: Melbourne;
+  font-weight: bold;
+  src: url("/fonts/Melbourne_bold.otf"); }
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url("/fonts/BebasNeue.otf"); }
+
+@font-face {
+  font-family: Ubuntu-Title;
+  src: url("/fonts/Ubuntu-Title.ttf"); }
+
+@font-face {
+  font-family: Capture-it;
+  src: url("/fonts/Capture-it.ttf"); }
+
+@font-face {
+  font-family: Capture-it-2;
+  src: url("/fonts/Capture-it-2.ttf"); }
+
+body {
+  font-family: Melbourne; }
+
+a {
+  text-decoration: none;
+  color: #ff3f34;
+  font-weight: bold; }
+  a:hover {
+    color: #ff0f01; }
+
+.container {
+  width: 960px;
+  margin: auto; }
+
+.header {
+  width: 960px;
+  font-family: "Capture-it";
+  font-size: 40px; }

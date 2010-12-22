@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title> First Post </title>
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><a href="/"> Roshan Choxi </a></h1>
+
+      </div>
+      <div class='highlight'><pre><code class='ruby'><span class='n'>describe</span> <span class='no'>Artist</span> <span class='k'>do</span>
+  <span class='n'>it</span> <span class='s2'>&quot;has a unique email address&quot;</span> <span class='k'>do</span>
+    <span class='no'>Factory</span><span class='p'>(</span><span class='ss'>:user</span><span class='p'>,</span> <span class='ss'>:email</span> <span class='o'>=&gt;</span> <span class='s2'>&quot;jeff@topnotch.com&quot;</span><span class='p'>)</span>
+    <span class='nb'>lambda</span> <span class='p'>{</span> <span class='no'>Factory</span><span class='p'>(</span><span class='ss'>:user</span><span class='p'>,</span> <span class='ss'>:email</span> <span class='o'>=&gt;</span> <span class='s2'>&quot;jeff@topnotch.com&quot;</span><span class='p'>)</span> <span class='p'>}</span><span class='o'>.</span><span class='n'>should</span>
+    <span class='n'>raise_error</span><span class='p'>(</span><span class='no'>ActiveRecord</span><span class='o'>::</span><span class='no'>RecordInvalid</span><span class='p'>)</span>
+  <span class='k'>end</span>
+<span class='k'>end</span>
+</code></pre>
+</div>
+    </div>
+  </body>
+</html>
