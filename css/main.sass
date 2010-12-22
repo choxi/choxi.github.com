@@ -1,7 +1,48 @@
 ---
 ---
+// fonts
+@font-face 
+  font-family: Melbourne
+  src: url('/fonts/Melbourne_reg.otf')
+@font-face 
+  font-family: Melbourne
+  font-weight: bold
+  src: url('/fonts/Melbourne_bold.otf')
+@font-face
+  font-family: Bebas Neue
+  src: url('/fonts/BebasNeue.otf')
+@font-face
+  font-family: Ubuntu-Title
+  src: url('/fonts/Ubuntu-Title.ttf')
+@font-face
+  font-family: Capture-it
+  src: url('/fonts/Capture-it.ttf')
+@font-face
+  font-family: Capture-it-2
+  src: url('/fonts/Capture-it-2.ttf')
+
+// variables
+$width: 960px
+$color1: #FF3F34 
+$color2: #4C3244 
+
+
+body
+  font-family: Melbourne
+
+a
+  text-decoration: none
+  color: $color1
+  font-weight: bold
+  &:hover
+    color: darken($color1, 10)
 
 .container
-  width: 960px
+  width: $width
   margin: auto
+
+.header
+  width: $width
+  font-family: "Capture-it"
+  font-size: 40px
 
