@@ -25,7 +25,7 @@
 $width: 600px
 $name_width: 278px
 $social_links_width: $width -$name_width 
-$color1: #FF3F34 
+$color1: #FA3834
 $color2: #3366FF 
 $light_grey: #222
 
@@ -38,12 +38,11 @@ a
   color: $color1
   font-weight: bold
   &:hover
-    color: darken($color1, 15)
+    color: darken($color1, 10)
 
 h1
   font-family: "Ubuntu-Title"
   font-size: 54px
-  
 
 .container
   width: $width
@@ -57,13 +56,11 @@ h1
     margin: 0 auto
     width: $name_width
   .social_links
-    width: 128px
-    margin: 0 auto
+    text-align: center
+    list-style: none
     li
-      text-decoration: none
       font-size: 20px
       display: inline
-      text-align: center
       a
         color: $light_grey
         -webkit-transition: color .30s ease-in
