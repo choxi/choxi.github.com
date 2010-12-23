@@ -3,8 +3,10 @@
   layout: default
 ---
 
+<div class="wip"><span class="at">@</span>wip...</div>
+
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts %}                                                          
     <li><a href="{{ post.url}}">{{ post.title }} </a></li>
   {% endfor %}
 </ul>

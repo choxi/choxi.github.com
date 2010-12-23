@@ -1,3 +1,5 @@
+@import "reset"
+
 // fonts
 @font-face 
   font-family: Melbourne
@@ -20,9 +22,12 @@
   src: url('/fonts/Capture-it-2.ttf')
 
 // variables
-$width: 960px
+$width: 600px
+$name_width: 278px
+$social_links_width: $width -$name_width 
 $color1: #FF3F34 
-$color2: #4C3244 
+$color2: #3366FF 
+$light_grey: #222
 
 
 body
@@ -33,7 +38,12 @@ a
   color: $color1
   font-weight: bold
   &:hover
-    color: darken($color1, 10)
+    color: darken($color1, 15)
+
+h1
+  font-family: "Ubuntu-Title"
+  font-size: 54px
+  
 
 .container
   width: $width
@@ -41,6 +51,34 @@ a
 
 .header
   width: $width
-  font-family: "Capture-it"
-  font-size: 40px
+  margin-top: 200px
+  height: 80px
+  h1
+    margin: 0 auto
+    width: $name_width
+  .social_links
+    width: 128px
+    margin: 0 auto
+    li
+      text-decoration: none
+      font-size: 20px
+      display: inline
+      text-align: center
+      a
+        color: $light_grey
+        -webkit-transition: color .30s ease-in
+        &:hover
+          color: $color2
+
+.main
+  width: $width
+  .wip
+    font-size: 100px
+    margin-top: 30px
+    text-align: center
+    .at
+      color: $color1
+      
+
+        
 

@@ -1,3 +1,39 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+*:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
 @font-face {
   font-family: Melbourne;
   src: url("/fonts/Melbourne_reg.otf"); }
@@ -31,13 +67,42 @@ a {
   color: #ff3f34;
   font-weight: bold; }
   a:hover {
-    color: #ff0f01; }
+    color: #e70c00; }
+
+h1 {
+  font-family: "Ubuntu-Title";
+  font-size: 54px; }
 
 .container {
-  width: 960px;
+  width: 600px;
   margin: auto; }
 
 .header {
-  width: 960px;
-  font-family: "Capture-it";
-  font-size: 40px; }
+  width: 600px;
+  margin-top: 200px;
+  height: 80px; }
+  .header h1 {
+    margin: 0 auto;
+    width: 278px; }
+  .header .social_links {
+    width: 128px;
+    margin: 0 auto; }
+    .header .social_links li {
+      text-decoration: none;
+      font-size: 20px;
+      display: inline;
+      text-align: center; }
+      .header .social_links li a {
+        color: #222222;
+        -webkit-transition: color 0.3s ease-in; }
+        .header .social_links li a:hover {
+          color: #3366ff; }
+
+.main {
+  width: 600px; }
+  .main .wip {
+    font-size: 100px;
+    margin-top: 30px;
+    text-align: center; }
+    .main .wip .at {
+      color: #ff3f34; }
