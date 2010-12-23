@@ -3,8 +3,8 @@
 
 // variables
 $width: 600px
-$name_width: 278px
-$social_links_width: $width -$name_width 
+
+// color scheme
 $color1: #FA3834
 $color2: #3366FF 
 $light_grey: #222
@@ -24,18 +24,15 @@ h1
   font-family: "Ubuntu-Title"
   font-size: 54px
 
-.container
+#container
   width: $width
   margin: auto
 
-.header
+#header
   margin-top: 200px
-  height: 80px
+  text-align: center
   h1
-    margin: 0 auto
-    width: $name_width
-  .social_links
-    text-align: center
+  #social_links
     list-style: none
     li
       font-size: 20px
@@ -46,8 +43,7 @@ h1
         &:hover
           color: $color2
 
-.main
-  width: $width
+#content
   .wip
     font-size: 100px
     margin-top: 30px

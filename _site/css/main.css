@@ -64,8 +64,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #fa3834;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #fa3834; }
   a:hover {
     color: #f50b06; }
 
@@ -73,34 +73,27 @@ h1 {
   font-family: "Ubuntu-Title";
   font-size: 54px; }
 
-.container {
+#container {
   width: 600px;
   margin: auto; }
 
-.header {
-  width: 600px;
+#header {
   margin-top: 200px;
-  height: 80px; }
-  .header h1 {
-    margin: 0 auto;
-    width: 278px; }
-  .header .social_links {
-    text-align: center;
+  text-align: center; }
+  #header #social_links {
     list-style: none; }
-    .header .social_links li {
+    #header #social_links li {
       font-size: 20px;
       display: inline; }
-      .header .social_links li a {
+      #header #social_links li a {
         color: #222222;
         -webkit-transition: color 0.3s ease-in; }
-        .header .social_links li a:hover {
+        #header #social_links li a:hover {
           color: #3366ff; }
 
-.main {
-  width: 600px; }
-  .main .wip {
-    font-size: 100px;
-    margin-top: 30px;
-    text-align: center; }
-    .main .wip .at {
-      color: #fa3834; }
+#content .wip {
+  font-size: 100px;
+  margin-top: 30px;
+  text-align: center; }
+  #content .wip .at {
+    color: #fa3834; }
