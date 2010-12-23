@@ -1,25 +1,5 @@
 @import "reset"
-
-// fonts
-@font-face 
-  font-family: Melbourne
-  src: url('/fonts/Melbourne_reg.otf')
-@font-face 
-  font-family: Melbourne
-  font-weight: bold
-  src: url('/fonts/Melbourne_bold.otf')
-@font-face
-  font-family: Bebas Neue
-  src: url('/fonts/BebasNeue.otf')
-@font-face
-  font-family: Ubuntu-Title
-  src: url('/fonts/Ubuntu-Title.ttf')
-@font-face
-  font-family: Capture-it
-  src: url('/fonts/Capture-it.ttf')
-@font-face
-  font-family: Capture-it-2
-  src: url('/fonts/Capture-it-2.ttf')
+@import "fonts"
 
 // variables
 $width: 600px
@@ -35,8 +15,8 @@ body
 
 a
   text-decoration: none
-  color: $color1
   font-weight: bold
+  color: $color1
   &:hover
     color: darken($color1, 10)
 
@@ -49,7 +29,6 @@ h1
   margin: auto
 
 .header
-  width: $width
   margin-top: 200px
   height: 80px
   h1
