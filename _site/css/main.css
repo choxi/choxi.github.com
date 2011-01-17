@@ -59,8 +59,9 @@ blockquote, q {
   font-family: Capture-it-2;
   src: url("/fonts/Capture-it-2.ttf"); }
 
-body {
-  font-family: Melbourne; }
+html, body {
+  font-family: Arial;
+  width: 100%; }
 
 a {
   text-decoration: none;
@@ -69,14 +70,19 @@ a {
   a:hover {
     color: #f50b06; }
 
+.primary_font, h1 {
+  font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif; }
+
+.secondary_font, #header #social_links, .post .title {
+  font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif; }
+
 h1 {
-  font-family: "Ubuntu-Title", "Helvetica Neue", "Helvetica", "arial", "sans-serif" j;
   font-size: 40px;
   text-transform: lowercase; }
 
-pre {
+.highlight {
   font-family: arial;
-  border: 1px solid black;
+  border: 1px solid #b5b5b5;
   padding: 10px;
   margin: 10px 0; }
 
@@ -85,22 +91,24 @@ pre {
   margin: auto; }
 
 #header {
-  margin-top: 8px; }
+  margin-top: 8px;
+  margin-bottom: 50px; }
   #header #social_links {
     list-style: none; }
     #header #social_links li {
       font-size: 20px;
       display: inline; }
       #header #social_links li a {
-        color: #222222;
+        color: black;
         -webkit-transition: color 0.3s ease-in; }
         #header #social_links li a:hover {
           color: #3366ff; }
 
-.posts {
-  margin-top: 50px; }
-  .posts .post {
-    padding-top: 10px;
-    border-top: 1px solid black; }
-    .posts .post .title {
-      font-size: 36px; }
+.post {
+  padding: 10px 0 80px 0;
+  border-top: 1px solid black; }
+  .post .title {
+    font-weight: bold;
+    color: #fa3834;
+    font-size: 36px;
+    margin-bottom: 25px; }

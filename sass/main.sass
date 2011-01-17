@@ -7,12 +7,13 @@ $width: 600px
 // color scheme
 $color1: #FA3834
 $color2: #3366FF 
-$light_grey: #222
+$light_grey: #B5B5B5
 
 
 // Layout definition
-body
-  font-family: Melbourne
+html, body
+  font-family: Arial
+  width: 100% 
 
 a
   text-decoration: none
@@ -21,41 +22,48 @@ a
   &:hover
     color: darken($color1, 10)
 
+.primary_font
+  font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif
+
+.secondary_font
+  font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif
+
 h1
-  font-family: "Ubuntu-Title", "Helvetica Neue", "Helvetica", "arial", "sans-serif"j
   font-size: 40px
   text-transform: lowercase
+  @extend .primary_font
 
-pre
+.highlight
   font-family: arial
-  border: 1px solid black
+  border: 1px solid $light_grey
   padding: 10px
   margin: 10px 0
 
+// Structure Related CSS
 #container
   width: $width
   margin: auto
 
 #header
   margin-top: 8px
+  margin-bottom: 50px
   #social_links
     list-style: none
+    @extend .secondary_font
     li
       font-size: 20px
       display: inline
       a
-        color: $light_grey
+        color: black
         -webkit-transition: color .30s ease-in
         &:hover
           color: $color2
-.posts
-  margin-top: 50px
-  .post
-    padding-top: 10px
-    border-top: 1px solid black
-    .title
-      font-size: 36px
-      
-
-        
-
+.post
+  padding: 10px 0 80px 0
+  border-top: 1px solid black
+  .title
+    font-weight: bold
+    color: $color1
+    font-size: 36px
+    margin-bottom: 25px
+    @extend .secondary_font
