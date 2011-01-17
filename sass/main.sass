@@ -21,17 +21,16 @@ a
     color: darken($color1, 10)
 
 h1
-  font-family: "Ubuntu-Title"
-  font-size: 54px
+  font-family: "Ubuntu-Title", "Helvetica Neue", "Helvetica", "arial", "sans-serif"j
+  font-size: 40px
+  text-transform: lowercase
 
 #container
   width: $width
   margin: auto
 
 #header
-  margin-top: 200px
-  text-align: center
-  h1
+  margin-top: 8px
   #social_links
     list-style: none
     li
@@ -42,14 +41,13 @@ h1
         -webkit-transition: color .30s ease-in
         &:hover
           color: $color2
-
-#content
-  .wip
-    font-size: 100px
-    margin-top: 30px
-    text-align: center
-    .at
-      color: $color1
+.posts
+  margin-top: 50px
+  .post
+    padding-top: 10px
+    border-top: 1px solid black
+    .title
+      font-size: 36px
       
 
         

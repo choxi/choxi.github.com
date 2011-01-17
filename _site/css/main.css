@@ -70,16 +70,16 @@ a {
     color: #f50b06; }
 
 h1 {
-  font-family: "Ubuntu-Title";
-  font-size: 54px; }
+  font-family: "Ubuntu-Title", "Helvetica Neue", "Helvetica", "arial", "sans-serif" j;
+  font-size: 40px;
+  text-transform: lowercase; }
 
 #container {
   width: 600px;
   margin: auto; }
 
 #header {
-  margin-top: 200px;
-  text-align: center; }
+  margin-top: 8px; }
   #header #social_links {
     list-style: none; }
     #header #social_links li {
@@ -91,9 +91,10 @@ h1 {
         #header #social_links li a:hover {
           color: #3366ff; }
 
-#content .wip {
-  font-size: 100px;
-  margin-top: 30px;
-  text-align: center; }
-  #content .wip .at {
-    color: #fa3834; }
+.posts {
+  margin-top: 50px; }
+  .posts .post {
+    padding-top: 10px;
+    border-top: 1px solid black; }
+    .posts .post .title {
+      font-size: 36px; }
