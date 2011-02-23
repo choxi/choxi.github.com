@@ -69,8 +69,7 @@ html, body {
 
 a {
   text-decoration: none;
-  font-weight: bold;
-  color: #3366ff; }
+  font-weight: bold; }
   a:hover {
     color: #668cff; }
 
@@ -81,6 +80,7 @@ a {
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif; }
 
 h1 {
+  color: #3366ff;
   font-size: 52px;
   text-transform: lowercase; }
 
@@ -124,6 +124,8 @@ h1 {
       #projects #groupon .caption .company, #projects #mergefm .caption .company {
         color: #85b53d;
         font-size: 24px; }
+        #projects #groupon .caption .company:hover, #projects #mergefm .caption .company:hover {
+          color: #9dc85d; }
     #projects #groupon .graphic, #projects #mergefm .graphic {
       width: 360px;
       height: 258px;
@@ -135,6 +137,7 @@ h1 {
   #projects #groupon .graphic {
     background-image: url("/images/groupon_desat.png"); }
     #projects #groupon .graphic:hover {
+      -webkit-transition: background-image 1s linear;
       background-image: url("/images/groupon.png"); }
   #projects #mergefm .graphic {
     background-image: url("/images/mergefm_desat.png"); }

@@ -19,7 +19,6 @@ html, body
 a
   text-decoration: none
   font-weight: bold
-  color: $color2
   &:hover
     color: lighten($color2, 10)
 
@@ -30,6 +29,7 @@ a
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif
 
 h1
+  color: $color2
   font-size: 52px
   text-transform: lowercase
   @extend .primary_font
@@ -75,6 +75,8 @@ h1
       .company
         color: $color3
         font-size: 24px
+        &:hover
+          color: lighten($color3, 10)
     .graphic
       width: 360px
       height: 258px
@@ -86,6 +88,7 @@ h1
   #groupon .graphic
     background-image: url("/images/groupon_desat.png")
     &:hover
+      -webkit-transition: background-image 1s linear
       background-image: url("/images/groupon.png")
   #mergefm .graphic
     background-image: url("/images/mergefm_desat.png")
