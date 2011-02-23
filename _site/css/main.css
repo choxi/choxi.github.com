@@ -92,7 +92,7 @@ h1 {
 
 #container {
   width: 800px;
-  margin: auto; }
+  margin: 150px auto; }
 
 #header {
   margin-top: 8px;
@@ -126,7 +126,9 @@ h1 {
         font-size: 24px; }
     #projects #groupon .graphic, #projects #mergefm .graphic {
       width: 360px;
-      height: 258px; }
+      height: 258px;
+      box-shadow: 0px 10px 20px black;
+      -webkit-box-shadow: 0px 10px 20px black; }
   #projects #groupon {
     margin-right: 38px;
     margin-left: 24px; }
