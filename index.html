@@ -3,10 +3,22 @@
   layout: default
 ---
 
-{% for post in site.posts %}                                                          
-  <div class="post">
-    <div class="title"><a href="{{ post.url}}">{{ post.title }} </a></div>
-    {{ post.content | truncatewords: 200 }}
+<div id="projects">
+  <div id="groupon">
+    <div class="caption">During the day I work at <br /><span class="company">Groupon</span></div>
+    <a href="http://groupon.com"><div class="graphic"></div></a>
   </div>
-{% endfor %}
+  <div id="mergefm">
+    <div class="caption">And at night I work on <br /><span class="company">merge.fm</span></div>
+    <a href="http://merge.fm"><div class="graphic"></div></a>
+  </div>
+</div>
+
+<!--<div id="posts">-->
+  <!--{% for post in site.posts %}                                                          -->
+    <!--<div class="post">-->
+      <!--<div class="title"><a href="{{ post.url}}">{{ post.title }} </a></div>-->
+    <!--</div>-->
+  <!--{% endfor %}-->
+<!--</div>-->
   

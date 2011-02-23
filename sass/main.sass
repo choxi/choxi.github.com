@@ -2,11 +2,12 @@
 @import "fonts"
 
 // variables
-$width: 600px
+$width: 800px
 
 // color scheme
 $color1: #FA3834
 $color2: #3366FF 
+$color3: rgb(133, 181, 61)
 $light_grey: #B5B5B5
 
 
@@ -18,9 +19,9 @@ html, body
 a
   text-decoration: none
   font-weight: bold
-  color: $color1
+  color: $color2
   &:hover
-    color: darken($color1, 10)
+    color: lighten($color2, 10)
 
 .primary_font
   font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif
@@ -29,7 +30,7 @@ a
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif
 
 h1
-  font-size: 40px
+  font-size: 52px
   text-transform: lowercase
   @extend .primary_font
 
@@ -47,8 +48,7 @@ h1
 #header
   margin-top: 8px
   margin-bottom: 50px
-  h1
-    float: left
+  text-align: center
   #social_links
     list-style: none
     @extend .secondary_font
@@ -61,13 +61,35 @@ h1
         -webkit-transition: color .30s ease-in
         &:hover
           color: $color2
-  #about_me
-    float: right
-    width: 300px
-    text-align: right
-    margin-top: 10px
-    font-size: 14px
-    font-style: italic
+#projects
+  width: 100%
+  height: 200px
+  #groupon, #mergefm
+    float: left
+    width: 360px
+    height: 300px
+    .caption
+      text-align: center
+      margin-bottom: 10px
+      font-family: Museo Slab
+      .company
+        color: $color3
+        font-size: 24px
+    .graphic
+      width: 360px
+      height: 258px
+  #groupon
+    margin-right: 38px
+    margin-left: 24px
+  #groupon .graphic
+    background-image: url("/images/groupon_desat.png")
+    &:hover
+      background-image: url("/images/groupon.png")
+  #mergefm .graphic
+    background-image: url("/images/mergefm_desat.png")
+    &:hover
+      background-image: url("/images/mergefm.png")
+
 .post
   padding: 10px 0 70px 0
   border-top: 1px solid black
