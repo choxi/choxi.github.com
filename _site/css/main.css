@@ -153,6 +153,19 @@ h1 {
     font-size: 20px;
     text-decoration: underline; }
 
+#sxsw {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 48px; }
+
+.pretty a {
+  font-family: Museo Slab;
+  color: #85b53d;
+  font-size: 30px;
+  text-shadow: #c8d885 0px 1px 1px; }
+  .pretty a:hover {
+    color: #9dc85d; }
+
 .post {
   padding: 10px 0 70px 0;
   border-top: 1px solid black; }
