@@ -134,6 +134,10 @@ h1 {
       height: 258px;
       box-shadow: 0px 10px 20px black;
       -webkit-box-shadow: 0px 10px 20px black; }
+  #projects #niroka .graphic {
+    background: url("/images/niroka_sprite.png") 0px 258px; }
+    #projects #niroka .graphic:hover {
+      background: url("/images/niroka_sprite.png") 0px 0px; }
   #projects #groupon .graphic {
     background: url("/images/groupon_sprite.png") 0px 258px; }
     #projects #groupon .graphic:hover {
