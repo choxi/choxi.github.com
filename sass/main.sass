@@ -61,6 +61,19 @@ h1
         -webkit-transition: color .30s ease-in
         &:hover
           color: $color2
+$blog_link_color: rgb(192, 85, 86)
+#blog_posts
+  text-align: center
+  margin-bottom: 80px
+  color: $blog_link_color
+  p
+    margin-bottom: 10px
+  a
+    color: $blog_link_color
+    font-size: 24px
+    text-decoration: underline
+    &:hover
+      color: lighten($blog_link_color, 10)
 #projects
   width: 100%
   .project
@@ -109,7 +122,7 @@ h1
 #follow_me
   font-size: 18px
   text-align: center
-  margin-bottom: 100px
+  margin-bottom: 65px
   a
     font-family: Museo Slab
     font-size: 20px
