@@ -184,9 +184,13 @@ h1 {
   padding: 10px 0 70px 0;
   text-shadow: white 1px 1px 0;
   font-size: 16px; }
+  .post img {
+    display: block;
+    margin: 0 auto; }
   .post h1 {
     color: #3aa0b6;
-    text-transform: none; }
+    text-transform: none;
+    text-align: center; }
   .post .title {
     font-weight: bold;
     color: #a6b96a;
