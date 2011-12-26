@@ -65,23 +65,24 @@ blockquote, q {
 
 html, body {
   font-family: Helvetica Neue, Helvetica, Arial;
-  width: 100%; }
+  width: 100%;
+  background: url("/images/soft_wallpaper.png") repeat; }
 
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #749cba; }
+  color: #a6b96a; }
   a:hover {
-    color: #96b4cb; }
+    color: #bbc98d; }
 
 .primary_font, h1 {
   font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif; }
 
-.secondary_font, #header #social_links, .post .title {
+.secondary_font, #name #social_links, .post .title {
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif; }
 
 h1 {
-  color: #749cba;
+  color: #a6b96a;
   font-size: 52px;
   text-transform: lowercase; }
 
@@ -95,33 +96,20 @@ h1 {
   width: 800px;
   margin: 110px auto; }
 
-#header {
+#name {
   margin-top: 8px;
   text-align: center; }
-  #header #social_links {
+  #name #social_links {
     list-style: none;
     clear: both; }
-    #header #social_links li {
+    #name #social_links li {
       font-size: 20px;
       display: inline; }
-      #header #social_links li a {
+      #name #social_links li a {
         color: black;
         -webkit-transition: color 0.3s ease-in; }
-        #header #social_links li a:hover {
-          color: #3366ff; }
-
-#blog_posts {
-  text-align: center;
-  margin-bottom: 80px;
-  color: #c05556; }
-  #blog_posts p {
-    margin-bottom: 10px; }
-  #blog_posts a {
-    color: #c05556;
-    font-size: 24px;
-    text-decoration: underline; }
-    #blog_posts a:hover {
-      color: #ce7a7b; }
+        #name #social_links li a:hover {
+          color: #3aa0b6; }
 
 #projects {
   width: 100%; }
@@ -134,11 +122,11 @@ h1 {
       margin-bottom: 10px;
       font-family: Museo Slab; }
       #projects .project .caption .company {
-        color: #85b53d;
+        color: #e54a4a;
         font-size: 24px;
         text-shadow: #c8d885 0px 1px 1px; }
         #projects .project .caption .company:hover {
-          color: #9dc85d; }
+          color: #eb7777; }
     #projects .project a {
       width: 360px; }
     #projects .project .graphic {
@@ -179,17 +167,17 @@ h1 {
 
 .pretty a {
   font-family: Museo Slab;
-  color: #85b53d;
+  color: #e54a4a;
   font-size: 30px;
   text-shadow: #c8d885 0px 1px 1px; }
   .pretty a:hover {
-    color: #9dc85d; }
+    color: #eb7777; }
 
 .post {
   padding: 10px 0 70px 0;
   border-top: 1px solid black; }
   .post .title {
     font-weight: bold;
-    color: #749cba;
+    color: #a6b96a;
     font-size: 36px;
     margin-bottom: 25px; }

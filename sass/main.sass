@@ -5,23 +5,24 @@
 $width: 800px
 
 // color scheme
-$color1: #749CBA
-$color2: #3366FF 
-$color3: rgb(133, 181, 61)
 $light_grey: #B5B5B5
 
+$highlight_1: rgb(166,185,106)
+$highlight_2: rgb(58,160,182)
+$highlight_3: rgb(229,74,74)
 
 // Layout definition
 html, body
   font-family: Helvetica Neue, Helvetica, Arial
-  width: 100% 
+  width: 100%
+  background: url("/images/soft_wallpaper.png") repeat
 
 a
   text-decoration: none
   font-weight: bold
-  color: $color1
+  color: $highlight_1
   &:hover
-    color: lighten($color1, 10)
+    color: lighten($highlight_1, 10)
 
 .primary_font
   font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif
@@ -30,7 +31,7 @@ a
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif
 
 h1
-  color: $color1
+  color: $highlight_1
   font-size: 52px
   text-transform: lowercase
   @extend .primary_font
@@ -46,7 +47,7 @@ h1
   width: $width
   margin: 110px auto
 
-#header
+#name
   margin-top: 8px
   text-align: center
   #social_links
@@ -60,20 +61,7 @@ h1
         color: black
         -webkit-transition: color .30s ease-in
         &:hover
-          color: $color2
-$blog_link_color: rgb(192, 85, 86)
-#blog_posts
-  text-align: center
-  margin-bottom: 80px
-  color: $blog_link_color
-  p
-    margin-bottom: 10px
-  a
-    color: $blog_link_color
-    font-size: 24px
-    text-decoration: underline
-    &:hover
-      color: lighten($blog_link_color, 10)
+          color: $highlight_2
 #projects
   width: 100%
   .project
@@ -85,11 +73,11 @@ $blog_link_color: rgb(192, 85, 86)
       margin-bottom: 10px
       font-family: Museo Slab
       .company
-        color: $color3
+        color: $highlight_3
         font-size: 24px
         text-shadow: #C8D885 0px 1px 1px
         &:hover
-          color: lighten($color3, 10)
+          color: lighten($highlight_3, 10)
     a
       width: 360px
     .graphic
@@ -97,7 +85,7 @@ $blog_link_color: rgb(192, 85, 86)
       width: 360px
       height: 258px
       box-shadow: 0px 10px 20px #000
-      -webkit-box-shadow: 0px 10px 20px #000 
+      -webkit-box-shadow: 0px 10px 20px #000
   #niroka .graphic
     background: url("/images/niroka_sprite.png") 0px 258px
     &:hover
@@ -131,19 +119,18 @@ $blog_link_color: rgb(192, 85, 86)
 .pretty
   a
     font-family: Museo Slab
-    color: $color3
+    color: $highlight_3
     font-size: 30px
     text-shadow: #C8D885 0px 1px 1px
     &:hover
-      color: lighten($color3, 10)
-
+      color: lighten($highlight_3, 10)
 
 .post
   padding: 10px 0 70px 0
   border-top: 1px solid black
   .title
     font-weight: bold
-    color: $color1
+    color: $highlight_1
     font-size: 36px
     margin-bottom: 25px
     @extend .secondary_font
