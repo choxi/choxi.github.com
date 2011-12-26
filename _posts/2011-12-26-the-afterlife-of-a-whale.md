@@ -13,3 +13,5 @@ It turns out that an entire new ecosystem of life flourished on the whale's deat
 When we look around at today's media ecosystem, there are a few whales I'd like to see finally settle to the depths of their graves. These are the record labels, television networks, and other media conglomerates that have choked off innovation for so long. It's completely ridiculous that I still have to subscribe to a package of 100+ channels of mind-rotting crap just to watch a couple TV shows. Even worse, I have to watch it during an arbitrary time window instead of on my own schedule. And I still can't watch most of it on my computer?
 
 Here's to you, Netflix, Spotify, Pandora and company. The future of media can't come soon enough.
+
+Comment on this post at [Hacker News](https://news.ycombinator.com/item?id=3197143)
