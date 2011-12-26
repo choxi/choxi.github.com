@@ -2,7 +2,7 @@
 @import "fonts"
 
 // variables
-$width: 800px
+$width: 750px
 
 // color scheme
 $light_grey: #B5B5B5
@@ -45,7 +45,7 @@ h1
 // Structure Related CSS
 #container
   width: $width
-  margin: 110px auto
+  margin: 20px auto
 
 #name
   margin-top: 8px
@@ -107,15 +107,6 @@ h1
     &:hover
       background: url("/images/bloc_sprite.png") 0px 0px
 
-#follow_me
-  font-size: 18px
-  text-align: center
-  margin-bottom: 40px
-  a
-    font-family: Museo Slab
-    font-size: 20px
-    text-decoration: underline
-
 .pretty
   a
     font-family: Museo Slab
@@ -127,10 +118,19 @@ h1
 
 .post
   padding: 10px 0 70px 0
-  border-top: 1px solid black
   .title
     font-weight: bold
     color: $highlight_1
     font-size: 36px
     margin-bottom: 25px
     @extend .secondary_font
+
+#header
+  margin-bottom: 40px
+  h1
+    float: left
+  img
+    float: right
+
+.clear
+  clear: both

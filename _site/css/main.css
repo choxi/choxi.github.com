@@ -93,8 +93,8 @@ h1 {
   margin: 10px 0; }
 
 #container {
-  width: 800px;
-  margin: 110px auto; }
+  width: 750px;
+  margin: 20px auto; }
 
 #name {
   margin-top: 8px;
@@ -116,7 +116,7 @@ h1 {
   #projects .project {
     height: 300px; }
     #projects .project .caption {
-      width: 400px;
+      width: 375px;
       float: right;
       text-align: center;
       margin-bottom: 10px;
@@ -156,15 +156,6 @@ h1 {
     #projects #bloc .graphic:hover {
       background: url("/images/bloc_sprite.png") 0px 0px; }
 
-#follow_me {
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 40px; }
-  #follow_me a {
-    font-family: Museo Slab;
-    font-size: 20px;
-    text-decoration: underline; }
-
 .pretty a {
   font-family: Museo Slab;
   color: #e54a4a;
@@ -174,10 +165,19 @@ h1 {
     color: #eb7777; }
 
 .post {
-  padding: 10px 0 70px 0;
-  border-top: 1px solid black; }
+  padding: 10px 0 70px 0; }
   .post .title {
     font-weight: bold;
     color: #a6b96a;
     font-size: 36px;
     margin-bottom: 25px; }
+
+#header {
+  margin-bottom: 40px; }
+  #header h1 {
+    float: left; }
+  #header img {
+    float: right; }
+
+.clear {
+  clear: both; }
