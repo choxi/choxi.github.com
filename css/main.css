@@ -69,6 +69,11 @@ html, body {
   background: url("/images/soft_wallpaper.png") repeat;
   color: #555555; }
 
+#wrap {
+  min-height: 100%; }
+  #wrap .container {
+    padding-bottom: 220px; }
+
 p {
   line-height: 140%; }
 
@@ -91,8 +96,7 @@ h1 {
   text-transform: lowercase; }
 
 #header h1 {
-  font-size: 42px;
-  float: left; }
+  font-size: 42px; }
   #header h1:hover {
     color: #bbc98d; }
 
@@ -102,7 +106,7 @@ h1 {
   padding: 10px;
   margin: 10px 0; }
 
-#container {
+.container {
   width: 650px;
   margin: 20px auto; }
 
@@ -246,28 +250,57 @@ h3 {
   .navigation:hover p {
     color: #59b6ca; }
 
-#header {
+#header, #footer {
   margin-bottom: 40px; }
-  #header .navigation {
+  #header .me, #footer .me {
+    float: left; }
+    #header .me img, #header .me h1, #footer .me img, #footer .me h1 {
+      float: left; }
+  #header .navigation, #footer .navigation {
     width: 48px;
     height: 48px;
     margin-right: 10px;
     margin-bottom: 0;
     float: right; }
-    #header .navigation.blog {
+    #header .navigation.blog, #footer .navigation.blog {
       background: url("/images/blog.png") no-repeat; }
-      #header .navigation.blog:hover {
+      #header .navigation.blog:hover, #footer .navigation.blog:hover {
         background: url("/images/blog.png") 0 48px; }
-    #header .navigation.twitter {
+    #header .navigation.twitter, #footer .navigation.twitter {
       background: url("/images/twitter.png") no-repeat; }
-      #header .navigation.twitter:hover {
+      #header .navigation.twitter:hover, #footer .navigation.twitter:hover {
         background: url("/images/twitter.png") 0 48px; }
-    #header .navigation.github {
+    #header .navigation.github, #footer .navigation.github {
       background: url("/images/github.png") no-repeat; }
-      #header .navigation.github:hover {
+      #header .navigation.github:hover, #footer .navigation.github:hover {
         background: url("/images/github.png") 0 48px; }
+
+#footer .navigation {
+  display: inline-block;
+  float: none; }
+
+.navigation_links {
+  width: 200px;
+  margin: 40 auto 0; }
 
 ::selection {
   background: #eb7777;
   color: white;
   text-shadow: none; }
+
+#footer {
+  width: 100%;
+  background: rgba(35, 35, 35, 0.5);
+  padding: 20px 0;
+  color: white;
+  text-shadow: #777777 -1px -1px 0;
+  position: relative;
+  margin-top: -220px;
+  margin-bottom: 0px;
+  height: 180px; }
+  #footer img {
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left; }
+  #footer p {
+    margin: 0; }

@@ -8,16 +8,34 @@
   </head>
 
   <body>
-    <div id="container">
-      <div id="header">
-        <h1><a href="/">Roshan Choxi</a></h1>
-        <a href="http://twitter.com/choxi"><div class="navigation twitter"></div></a>
-        <a href="http://github.com/choxi"><div class="navigation github"></div></a>
-        <a href="/blog.html"><div class="navigation blog"></div></a>
-        <div class="clear"></div>
+    <div id ="wrap">
+      <div class="container">
+        <div id="header">
+          <div class="me">
+            <!-- <img src="http://graph.facebook.com/choxi/picture?size=large">-->
+            <h1><a href="/">Roshan Choxi</a></h1>
+          </div>
+          <a href="http://twitter.com/choxi"><div class="navigation twitter"></div></a>
+          <a href="http://github.com/choxi"><div class="navigation github"></div></a>
+          <a href="/blog.html"><div class="navigation blog"></div></a>
+          <div class="clear"></div>
+        </div>
+        <div id="content">
+          {{ content }}
+        </div>
       </div>
-      <div id="content">
-        {{ content }}
+    </div>
+    <div id="footer">
+      <div class="container">
+        <img src="http://api.twitter.com/1/users/profile_image/choxi.png?size=bigger">
+        <p> Hey my name's Roshan, I'm the Cofounder and CTO of <a href="http://trybloc.com">Bloc</a>.</p>
+        <p> I like building things with software and blogging about startups and technology.</p>
+        <div class="navigation_links">
+          <a href="/blog.html"><div class="navigation blog"></div></a>
+          <a href="http://github.com/choxi"><div class="navigation github"></div></a>
+          <a href="http://twitter.com/choxi"><div class="navigation twitter"></div></a>
+        </div>
+        <div class="clear"></div>
       </div>
     </div>
   </body>

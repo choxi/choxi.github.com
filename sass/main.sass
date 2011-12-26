@@ -11,12 +11,19 @@ $highlight_1: rgb(166,185,106)
 $highlight_2: rgb(58,160,182)
 $highlight_3: rgb(229,74,74)
 
+$footer_height: 220px
+
 // Layout definition
 html, body
   font-family: Helvetica Neue, Helvetica, Arial
   width: 100%
   background: url("/images/soft_wallpaper.png") repeat
   color: #555
+
+#wrap
+  min-height: 100%
+  .container
+    padding-bottom: $footer_height
 
 p
   line-height: 140%
@@ -41,7 +48,6 @@ h1
   @extend .primary_font
 #header h1
   font-size: 42px
-  float: left
   &:hover
     color: lighten($highlight_1, 10)
 
@@ -52,7 +58,7 @@ h1
   margin: 10px 0
 
 // Structure Related CSS
-#container
+.container
   width: $width
   margin: 20px auto
 
@@ -199,8 +205,12 @@ h3
     p
       color: lighten($highlight_2, 10)
 
-#header
+#header, #footer
   margin-bottom: 40px
+  .me
+    float: left
+    img, h1
+      float: left
   .navigation
     width: 48px
     height: 48px
@@ -220,7 +230,33 @@ h3
       &:hover
         background: url("/images/github.png") 0 48px
 
+#footer .navigation
+  display: inline-block
+  float: none
+
+.navigation_links
+  width: 200px
+  margin: 40 auto 0
+
 ::selection
   background: lighten($highlight_3, 10)
   color: white
   text-shadow: none
+
+#footer
+  width: 100%
+  background: rgba(35,35,35, 0.5)
+  padding: 20px 0
+  color: white
+  text-shadow: #777 -1px -1px 0
+  position: relative
+  margin-top: -$footer_height /*negative value of footer height*/
+  margin-bottom: 0px
+  height: 180px
+  clear:both
+  img
+    border-radius: 10px
+    margin-right: 10px
+    float: left
+  p
+    margin: 0
