@@ -41,6 +41,7 @@ h1
   @extend .primary_font
 #header h1
   font-size: 42px
+  float: left
 
 .highlight
   font-family: Arial
@@ -124,6 +125,7 @@ h1
 
 .posts
   font-size: 24px
+  text-align: center
 
 .post
   padding: 10px 0 70px 0
@@ -133,14 +135,6 @@ h1
     font-size: 36px
     margin-bottom: 25px
     @extend .secondary_font
-
-#header
-  margin-bottom: 40px
-  h1
-    float: left
-  img
-    float: right
-    margin-left: 10px
 
 .clear
   clear: both
@@ -162,11 +156,49 @@ h3
 
 .navigation
   float: left
+  width: 180px
+  height: 180px
   margin-right: 55px
+  margin-bottom: 80px
   text-align: center
+  position: relative
   &.last
     margin-right: 0px
+  &.blog
+    background: url("/images/blog_large.png") no-repeat
+    &:hover
+      background: url("/images/blog_large.png") 0 181px
+  &.twitter
+    background: url("/images/twitter_large.png") no-repeat
+    &:hover
+      background: url("/images/twitter_large.png") 0 181px
+  &.github
+    background: url("/images/github_large.png") no-repeat
+    &:hover
+      background: url("/images/github_large.png") 0 181px
   p
-    margin-top: 0px
-    margin-bottom: 40px
+    position: absolute
     text-transform: lowercase
+    bottom: -35px
+    left: 72px
+
+#header
+  margin-bottom: 40px
+  .navigation
+    width: 48px
+    height: 48px
+    margin-right: 10px
+    margin-bottom: 0
+    float: right
+    &.blog
+      background: url("/images/blog.png") no-repeat
+      &:hover
+        background: url("/images/blog.png") 0 48px
+    &.twitter
+      background: url("/images/twitter.png") no-repeat
+      &:hover
+        background: url("/images/twitter.png") 0 48px
+    &.github
+      background: url("/images/github.png") no-repeat
+      &:hover
+        background: url("/images/github.png") 0 48px

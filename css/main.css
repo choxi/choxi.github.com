@@ -91,7 +91,8 @@ h1 {
   text-transform: lowercase; }
 
 #header h1 {
-  font-size: 42px; }
+  font-size: 42px;
+  float: left; }
 
 .highlight {
   font-family: Arial;
@@ -172,7 +173,8 @@ h1 {
     color: #eb7777; }
 
 .posts {
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: center; }
 
 .post {
   padding: 10px 0 70px 0; }
@@ -181,14 +183,6 @@ h1 {
     color: #a6b96a;
     font-size: 36px;
     margin-bottom: 25px; }
-
-#header {
-  margin-bottom: 40px; }
-  #header h1 {
-    float: left; }
-  #header img {
-    float: right;
-    margin-left: 10px; }
 
 .clear {
   clear: both; }
@@ -210,11 +204,49 @@ h3 {
 
 .navigation {
   float: left;
+  width: 180px;
+  height: 180px;
   margin-right: 55px;
-  text-align: center; }
+  margin-bottom: 80px;
+  text-align: center;
+  position: relative; }
   .navigation.last {
     margin-right: 0px; }
+  .navigation.blog {
+    background: url("/images/blog_large.png") no-repeat; }
+    .navigation.blog:hover {
+      background: url("/images/blog_large.png") 0 181px; }
+  .navigation.twitter {
+    background: url("/images/twitter_large.png") no-repeat; }
+    .navigation.twitter:hover {
+      background: url("/images/twitter_large.png") 0 181px; }
+  .navigation.github {
+    background: url("/images/github_large.png") no-repeat; }
+    .navigation.github:hover {
+      background: url("/images/github_large.png") 0 181px; }
   .navigation p {
-    margin-top: 0px;
-    margin-bottom: 40px;
-    text-transform: lowercase; }
+    position: absolute;
+    text-transform: lowercase;
+    bottom: -35px;
+    left: 72px; }
+
+#header {
+  margin-bottom: 40px; }
+  #header .navigation {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    float: right; }
+    #header .navigation.blog {
+      background: url("/images/blog.png") no-repeat; }
+      #header .navigation.blog:hover {
+        background: url("/images/blog.png") 0 48px; }
+    #header .navigation.twitter {
+      background: url("/images/twitter.png") no-repeat; }
+      #header .navigation.twitter:hover {
+        background: url("/images/twitter.png") 0 48px; }
+    #header .navigation.github {
+      background: url("/images/github.png") no-repeat; }
+      #header .navigation.github:hover {
+        background: url("/images/github.png") 0 48px; }
