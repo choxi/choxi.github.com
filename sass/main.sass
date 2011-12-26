@@ -2,7 +2,7 @@
 @import "fonts"
 
 // variables
-$width: 750px
+$width: 650px
 
 // color scheme
 $light_grey: #B5B5B5
@@ -16,6 +16,10 @@ html, body
   font-family: Helvetica Neue, Helvetica, Arial
   width: 100%
   background: url("/images/soft_wallpaper.png") repeat
+  color: #555
+
+p
+  line-height: 140%
 
 a
   text-decoration: none
@@ -25,7 +29,7 @@ a
     color: lighten($highlight_1, 10)
 
 .primary_font
-  font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif
+  font-family: Museo Slab, Helvetica Neue, Helvetica, arial, sans-serif
 
 .secondary_font
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif
@@ -35,9 +39,11 @@ h1
   font-size: 52px
   text-transform: lowercase
   @extend .primary_font
+#header h1
+  font-size: 42px
 
 .highlight
-  font-family: arial
+  font-family: Arial
   border: 1px solid $light_grey
   padding: 10px
   margin: 10px 0
@@ -67,7 +73,7 @@ h1
   .project
     height: 300px
     .caption
-      width: $width/2
+      width: 240px
       float: right
       text-align: center
       margin-bottom: 10px
@@ -75,7 +81,7 @@ h1
       .company
         color: $highlight_3
         font-size: 24px
-        text-shadow: #C8D885 0px 1px 1px
+        text-shadow: white 1px 1px 0
         &:hover
           color: lighten($highlight_3, 10)
     a
@@ -116,6 +122,9 @@ h1
     &:hover
       color: lighten($highlight_3, 10)
 
+.posts
+  font-size: 24px
+
 .post
   padding: 10px 0 70px 0
   .title
@@ -131,6 +140,33 @@ h1
     float: left
   img
     float: right
+    margin-left: 10px
 
 .clear
   clear: both
+
+blockquote
+  padding-left: 20px
+  border-left: 3px solid #CCC
+  margin: 20px 0
+
+p
+  margin: 20px 0
+
+h2
+  font-size: 24px
+
+h3
+  font-size: 20px
+  font-weight: bold
+
+.navigation
+  float: left
+  margin-right: 55px
+  text-align: center
+  &.last
+    margin-right: 0px
+  p
+    margin-top: 0px
+    margin-bottom: 40px
+    text-transform: lowercase

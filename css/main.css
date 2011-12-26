@@ -66,7 +66,11 @@ blockquote, q {
 html, body {
   font-family: Helvetica Neue, Helvetica, Arial;
   width: 100%;
-  background: url("/images/soft_wallpaper.png") repeat; }
+  background: url("/images/soft_wallpaper.png") repeat;
+  color: #555555; }
+
+p {
+  line-height: 140%; }
 
 a {
   text-decoration: none;
@@ -76,7 +80,7 @@ a {
     color: #bbc98d; }
 
 .primary_font, h1 {
-  font-family: Ubuntu-Title, Helvetica Neue, Helvetica, arial, sans-serif; }
+  font-family: Museo Slab, Helvetica Neue, Helvetica, arial, sans-serif; }
 
 .secondary_font, #name #social_links, .post .title {
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif; }
@@ -86,14 +90,17 @@ h1 {
   font-size: 52px;
   text-transform: lowercase; }
 
+#header h1 {
+  font-size: 42px; }
+
 .highlight {
-  font-family: arial;
+  font-family: Arial;
   border: 1px solid #b5b5b5;
   padding: 10px;
   margin: 10px 0; }
 
 #container {
-  width: 750px;
+  width: 650px;
   margin: 20px auto; }
 
 #name {
@@ -116,7 +123,7 @@ h1 {
   #projects .project {
     height: 300px; }
     #projects .project .caption {
-      width: 375px;
+      width: 240px;
       float: right;
       text-align: center;
       margin-bottom: 10px;
@@ -124,7 +131,7 @@ h1 {
       #projects .project .caption .company {
         color: #e54a4a;
         font-size: 24px;
-        text-shadow: #c8d885 0px 1px 1px; }
+        text-shadow: white 1px 1px 0; }
         #projects .project .caption .company:hover {
           color: #eb7777; }
     #projects .project a {
@@ -164,6 +171,9 @@ h1 {
   .pretty a:hover {
     color: #eb7777; }
 
+.posts {
+  font-size: 24px; }
+
 .post {
   padding: 10px 0 70px 0; }
   .post .title {
@@ -177,7 +187,34 @@ h1 {
   #header h1 {
     float: left; }
   #header img {
-    float: right; }
+    float: right;
+    margin-left: 10px; }
 
 .clear {
   clear: both; }
+
+blockquote {
+  padding-left: 20px;
+  border-left: 3px solid #cccccc;
+  margin: 20px 0; }
+
+p {
+  margin: 20px 0; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 20px;
+  font-weight: bold; }
+
+.navigation {
+  float: left;
+  margin-right: 55px;
+  text-align: center; }
+  .navigation.last {
+    margin-right: 0px; }
+  .navigation p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-transform: lowercase; }
