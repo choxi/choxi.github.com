@@ -14,4 +14,4 @@ When we look around at today's media ecosystem, there are a few whales I'd like 
 
 Here's to you, Netflix, Spotify, Pandora and company. The future of media can't come soon enough.
 
-Comment on this post at [Hacker News](https://news.ycombinator.com/item?id=3197143)
+Comment on this post at [Hacker News](http://news.ycombinator.com/item?id=3393857)
