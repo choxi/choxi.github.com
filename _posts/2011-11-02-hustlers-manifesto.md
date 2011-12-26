@@ -3,8 +3,6 @@
   layout: post
 ---
 
-<h1>{{ page.title}}</h1>
-
 ![](http://media.tumblr.com/tumblr_lu1xhn9Cx31r2t7zo.jpg)
 
 Four years ago, I began my journey of learning all about the Software Craftsmanship/Agile movements. Let me be clear about exactly what I mean when I refer to the craftsmanship/agile movement. I'm referring to the concepts of Test Driven Development, Iteration, Pivotal Tracker, Retrospectives, etc. which, at least in the Ruby community, are basically tenets. So it came as somewhat of a shock to my system to start my own company and find how royally all these tenets have failed me. Let me show you a conversation I had with my cofounder as an example:
