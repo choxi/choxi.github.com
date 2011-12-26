@@ -21,9 +21,11 @@ Four years ago, I began my journey of learning all about the Software Craftsmans
 
 The Software Craftsmanship and Agile movements have in large been driven by the consulting community, and it makes sense for them because they build in a much more controlled environment. Clients change their minds, but it's nothing like the magnitude of code change that a startup pivot involves. Also, at the end of the day the consultant's deliverable is code. The following doesn't work at a startup:
 
-1. Finish Pivotal Tracker Queue
-2. ???
-3. Profit
+> Finish Pivotal Tracker Queue
+>
+> ???
+>
+> Profit
 
 *(see [here](http://www.youtube.com/watch?v=TBiSI6OdqvA) if you have no idea what I'm talking about)*
 
@@ -52,9 +54,11 @@ I don't know why this over-analyzation happens, There's something about the prog
 ##Rule #3: Take Ownership of Your Features
 Don't worship the codebase. I had the tendency to treat code like a sacred scroll that should never be tarnished, and it gets in the way of me creating value to our users. A related effect is that coders tend to push off non-programming work in favor of the next feature to implement. We're good at coding, so we try to find reasons to always have something to code. I think a lot of developers do this, but remember:
 
-1. Finish Pivotal Tracker Queue
-2. ???
-3. Profit
+> Finish Pivotal Tracker Queue
+>
+> ???
+>
+> Profit
 
 doesn't work.
 
@@ -68,8 +72,4 @@ A healthy dosage of chaos can go far for your team. It may not optimize your pro
 
 Finally, software is a means to an end. Try not to lose sight of that end, or you'll end up just treading water and never moving forward.
 
-EDIT: HackerNews comments [here](https://news.ycombinator.com/item?id=3197143)
-
--- [roshan](http://roshfu.com)
-
-[follow us on twitter](http://twitter.com/nirokaloco)
+Comment on this post at [Hacker News](https://news.ycombinator.com/item?id=3197143)

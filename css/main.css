@@ -266,3 +266,8 @@ h3 {
       background: url("/images/github.png") no-repeat; }
       #header .navigation.github:hover {
         background: url("/images/github.png") 0 48px; }
+
+::selection {
+  background: #eb7777;
+  color: white;
+  text-shadow: none; }
