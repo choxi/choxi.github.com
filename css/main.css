@@ -179,7 +179,9 @@ h1 {
   text-align: center; }
 
 .post {
-  padding: 10px 0 70px 0; }
+  padding: 10px 0 70px 0;
+  text-shadow: white 1px 1px 0;
+  font-size: 16px; }
   .post .title {
     font-weight: bold;
     color: #a6b96a;
