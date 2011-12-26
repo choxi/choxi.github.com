@@ -177,11 +177,16 @@ h1 {
 .posts {
   font-size: 24px;
   text-align: center; }
+  .posts a {
+    color: #3aa0b6; }
 
 .post {
   padding: 10px 0 70px 0;
   text-shadow: white 1px 1px 0;
   font-size: 16px; }
+  .post h1 {
+    color: #3aa0b6;
+    text-transform: none; }
   .post .title {
     font-weight: bold;
     color: #a6b96a;
@@ -232,7 +237,10 @@ h3 {
     position: absolute;
     text-transform: lowercase;
     bottom: -35px;
-    left: 72px; }
+    left: 72px;
+    color: #3aa0b6; }
+  .navigation:hover p {
+    color: #59b6ca; }
 
 #header {
   margin-bottom: 40px; }
