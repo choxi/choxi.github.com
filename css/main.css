@@ -310,3 +310,9 @@ h3 {
     float: left; }
   #footer p {
     margin: 0; }
+
+strong {
+  font-weight: bold; }
+
+li {
+  margin: 5px 0; }
