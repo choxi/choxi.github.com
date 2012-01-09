@@ -13,14 +13,14 @@ We need something new. We need a system that can keep up with the increasingly f
 
 **Note:** Here's a list of new online education initiatives that I've cherry picked [from Reddit](http://www.reddit.com/r/reddit.com/comments/cktxy/reddit_lets_compile_a_list_of_the_best_online/). I tried to pick ones that have picked up a lot of steam in 2011 just to make a point that this area is no longer being neglected by entrepreneurs.
 
-> - [Bloc](http://www.trybloc.com) (my startup, shameless plug)
-> - [Kahn Academy](http://kahnacademy.com)
-> - [Codecademy](http://codecademy.com)
-> - [Edmodo](http://edmodo.com)
-> - [YouTube Edu](http://www.youtube.com/education)
-> - [Stanford Engineering Everywhere](http://see.stanford.edu/see/courses.aspx)
-> - [Lynda](http://lynda.com)
-> - [Udemy](http://udemy.com)
-> - [Skillshare](http://skillshare.com)
+- [Bloc](http://www.trybloc.com) (my startup, shameless plug)
+- [Kahn Academy](http://kahnacademy.com)
+- [Codecademy](http://codecademy.com)
+- [Edmodo](http://edmodo.com)
+- [YouTube Edu](http://www.youtube.com/education)
+- [Stanford Engineering Everywhere](http://see.stanford.edu/see/courses.aspx)
+- [Lynda](http://lynda.com)
+- [Udemy](http://udemy.com)
+- [Skillshare](http://skillshare.com)
 
 This is obviously not a comprehensive list, just some of the interesting ones that have been growing in popularity recently. Check out [Reddit's list](http://www.reddit.com/r/reddit.com/comments/cktxy/reddit_lets_compile_a_list_of_the_best_online/) for something much more thorough and less engineering-biased.
