@@ -80,9 +80,15 @@ p {
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #a6b96a; }
+  color: #3aa0b6; }
   a:hover {
-    color: #bbc98d; }
+    color: #59b6ca; }
+
+#footer a {
+  color: #59b6ca;
+  text-shadow: none; }
+  #footer a:hover {
+    color: #80c7d6; }
 
 .primary_font, h1 {
   font-family: Museo Slab, Helvetica Neue, Helvetica, arial, sans-serif; }
@@ -197,7 +203,7 @@ h1 {
   .post h1, .post h4 {
     text-align: center; }
   .post h1 {
-    color: #3aa0b6;
+    color: #a6b96a;
     text-transform: none; }
   .post .title {
     font-weight: bold;
