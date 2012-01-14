@@ -24,19 +24,8 @@ Valley turn into that kind of [Boiler Room](http://www.imdb.com/title/tt0181984/
 *   To learn
 *   To prove to myself that I can do it
 
-Not all of these are motivations I'm proud of, I'll grant you that. But
-it's an honest, brain dump of the things I could think of in 10
-minutes. If I considered their weights, my list would be more like:
-
-1. Make enough money for me and my family to never have to worry about
-   it again
-2. Make a dent in the universe
-3. To learn
-
-I think that list, even with number one spot being a money-driven
-motivation, is healthy. Unless you're already rich, I'd wager that
-getting into the 1% is on the top 3 for every entrepreneur and there's no reason to
-be ashamed of it or hide it behind some veil of altruism.
+That's my honest list. They're obviously not all weighted the same way,
+but I'd be lying if I said they weren't all factors.
 
 The great thing about the Valley is that, unlike Wall Street, the system's built so that you
 mostly can't make money without also creating value.
