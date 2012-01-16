@@ -18,10 +18,10 @@ the API keys and secrets and could start sending requests to Stripe.
 ![](/images/stripe_anonymous_users.jpg)
 
 While I can't know for sure, I'd imagine that this would increase
-conversions quite a bit. We didn't require sign ups on 
+conversions quite a bit. We didn't require sign ups on
 [Bloc](http://www.trybloc.com) from day one so I don't have any data to
 support that, but I may retrospectively throw in a test and do a
-follow-up post on the conversion numbers. This post is more of a technical 
+follow-up post on the conversion numbers. This post is more of a technical
 one on how to implement the pattern and
 allow users to try out a fully-functioning version of your product
 before signing up.
@@ -59,7 +59,7 @@ end
 
 This looks reasonably innocuous, but if you multiply it by 20 for all the features that have
 to branch based on the user's login status it changes from the easy solution to the solution
-that's slowing down development because of all the two scenarios you
+that's slowing down development because of the two scenarios you
 have to consider for each new feature.
 
 ## New Solution: Delegating to a Shared Record
@@ -67,8 +67,8 @@ The more elegant solution we came up with was to introduce a new table of
 Identities that optionally belongs to a User -- Apps/Badges/Courses
 are then tied to an Identity instead of a User. When the user is
 logged in, we fetch the Identity from the logged in User record. When there is no
-logged in user, we create an Identity record and save it's id in the
-session. 
+logged in user, we create an Identity record and save its id in the
+session.
 
 **Warning:** If you use a cookie-based session, you have to either sign
 the cookie or verify that the Identity does not already belong to a user
