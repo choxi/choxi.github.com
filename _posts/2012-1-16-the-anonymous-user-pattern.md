@@ -28,8 +28,9 @@ before signing up.
 
 ## Old Solution: Tracking State in Cookies
 
-In general, the difficulties arise from the majority of your database
-schema presuming the existence of a User. I'll use Bloc as an example.
+In general, the difficult part in allowing anonymous usage is that, for
+every feature you want to support, you have to consider both scenarios:
+a logged-in user as well as an anonymous user. I'll use Bloc as an example.
 Users on Bloc can earn badges, build apps, and complete
 courses and challenges. We want to allow them to do this without signing
 up, but how do we save their badges, apps, and course progresses if we
@@ -67,9 +68,13 @@ Identities that optionally belongs to a User -- Apps/Badges/Courses
 are then tied to an Identity instead of a User. When the user is
 logged in, we fetch the Identity from the logged in User record. When there is no
 logged in user, we create an Identity record and save it's id in the
-session (warning: if you use cookie-based session, you have to either sign
+session. 
+
+**Warning:** If you use a cookie-based session, you have to either sign
 the cookie or verify that the Identity does not already belong to a user
-when you're fetching an Identity for an anonymous user).
+when you're fetching an Identity for an anonymous user. Otherwise it's
+trivial for a hacker to spoof as any other user. The solution in Rails
+below should be adequate.
 
 {% highlight ruby %}
 # application_controller.rb
