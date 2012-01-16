@@ -1,7 +1,6 @@
 ---
   title: How To Allow Anonymous Users
   layout: post
-  published: false
 ---
 
 blah

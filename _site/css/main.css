@@ -107,10 +107,11 @@ h1 {
     color: #bbc98d; }
 
 .highlight {
-  font-family: Arial;
+  font-family: Monaco, monospace;
   border: 1px solid #b5b5b5;
-  padding: 10px;
-  margin: 10px 0; }
+  padding: 20px;
+  margin: 10px 0;
+  text-shadow: none; }
 
 .container {
   width: 650px;
