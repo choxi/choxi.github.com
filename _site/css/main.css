@@ -111,7 +111,8 @@ h1 {
   border: 1px solid #b5b5b5;
   padding: 20px;
   margin: 10px 0;
-  text-shadow: none; }
+  text-shadow: none;
+  line-height: 132%; }
 
 .container {
   width: 650px;
