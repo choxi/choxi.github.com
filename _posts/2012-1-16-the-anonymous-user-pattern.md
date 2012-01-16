@@ -17,11 +17,13 @@ the API keys and secrets and could start sending requests to Stripe.
 
 ![](/images/stripe_anonymous_users.jpg)
 
-While I can't know for sure, I'd imagine that this would increase
-conversions quite a bit. We didn't require sign ups on
-[Bloc](http://www.trybloc.com) from day one so I don't have any data to
-support that, but I may retrospectively throw in a test and do a
-follow-up post on the conversion numbers. This post is more of a technical
+There are a few posts that make a convincing case for allowing
+users to "try before they buy", [Unbounce was able to increase their
+conversion rates by 12%](http://unbounce.com/lead-generation/conversion-psychology-1-why-stealing-grapes-increases-form-conversions-case-study/) using this model. The idea is to earn the trust of your users with a minimal
+investment on their part, **you want to ease them along the funnel instead
+of requiring the large upfront cost of giving up their email address and
+creating another online account to keep mental note of**.
+This post is more of a technical
 one on how to implement the pattern and
 allow users to try out a fully-functioning version of your product
 before signing up.
