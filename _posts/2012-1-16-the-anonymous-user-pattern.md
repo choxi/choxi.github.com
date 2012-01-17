@@ -120,6 +120,15 @@ end
 
 {% endhighlight %}
 
+##Admin Ghosting
+[ch on HackerNews noted](http://news.ycombinator.com/item?id=3476437):
+> Seems with this approach it should be easy for an admin to 'su' to a normal user account and perform actions as that user. Nice for tech support and other administrative operations.
+
+That's a great application that I hadn't thought of. Dissociating the
+identity (Identity) from the login (User) would, with some extra work,
+allow admins to temporarily claim another user's identity without
+requiring the login credentials.
+
 **Followup:** I'm a firm believer in the Lean/Scientific Method of developing
 features so I'm a little ashamed that I don't have metrics to support
 the anonymous user pattern. I'll try to find the time to retroactively
