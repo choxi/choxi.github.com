@@ -7,8 +7,8 @@ $width: 650px
 // color scheme
 $light_grey: #B5B5B5
 
-$highlight_1: rgb(166,185,106)
-$highlight_2: rgb(58,160,182)
+$highlight_1: rgb(59,63,63)
+$highlight_2: darken(rgb(210,46,61), 6)
 $highlight_3: rgb(229,74,74)
 
 $footer_height: 220px
@@ -18,6 +18,7 @@ html, body
   font-family: Helvetica Neue, Helvetica, Arial
   width: 100%
   background: url("/images/soft_wallpaper.png") repeat
+  //background: url("/images/bg_noise.jpg") repeat
   color: #555
 
 #wrap
@@ -26,7 +27,7 @@ html, body
     padding-bottom: $footer_height
 
 p
-  line-height: 140%
+  line-height: 28px
 
 a
   text-decoration: none
@@ -34,12 +35,6 @@ a
   color: $highlight_2
   &:hover
     color: lighten($highlight_2, 10)
-
-#footer a
-  color:  lighten($highlight_2, 10)
-  text-shadow: none
-  &:hover
-    color: lighten($highlight_2, 20)
 
 .primary_font
   font-family: Museo Slab, Helvetica Neue, Helvetica, arial, sans-serif
@@ -98,7 +93,6 @@ h1
       .company
         color: $highlight_3
         font-size: 24px
-        text-shadow: white 1px 1px 0
         &:hover
           color: lighten($highlight_3, 10)
     a
@@ -149,12 +143,12 @@ h1
 
 .post
   padding: 10px 0 70px 0
-  text-shadow: white 1px 1px 0
   font-size: 16px
+  color: $highlight_1
   img
     display: block
     margin: 0 auto
-    border: 10px solid rgba(120,120,120, 0.6)
+    border: 4px solid rgba(0,0,0,0.5)
   h1, h4
     text-align: center
   h1
@@ -168,6 +162,8 @@ h1
     @extend .secondary_font
   a
     text-shadow: none
+  p
+    color: lighten($highlight_1, 10)
 
 .clear
   clear: both
@@ -201,6 +197,8 @@ h3
     background: url("/images/blog_large.png") no-repeat
     &:hover
       background: url("/images/blog_large.png") 0 181px
+    p
+      margin-left: 7px
   &.twitter
     background: url("/images/twitter_large.png") no-repeat
     &:hover
@@ -212,8 +210,8 @@ h3
   p
     position: absolute
     text-transform: lowercase
-    bottom: -35px
-    left: 72px
+    bottom: -48px
+    left: 68px
     color: $highlight_2
   &:hover
     p
@@ -244,10 +242,6 @@ h3
       &:hover
         background: url("/images/github.png") 0 48px
 
-#footer .navigation
-  display: inline-block
-  float: none
-
 .navigation_links
   width: 200px
   margin: 40 auto 0
@@ -261,13 +255,20 @@ h3
   width: 100%
   background: rgba(35,35,35, 0.5)
   padding: 20px 0
-  color: white
-  text-shadow: #777 -1px -1px 0
+  color: rgb(210,211,202)
   position: relative
   margin-top: -$footer_height /*negative value of footer height*/
   margin-bottom: 0px
   height: 180px
-  clear:both
+  clear: both
+  .navigation
+    display: inline-block
+    float: none
+  a
+    text-shadow: none
+    color:  lighten($highlight_2, 15)
+    &:hover
+      color: lighten($highlight_2, 20)
   img
     border-radius: 10px
     margin-right: 10px

@@ -75,20 +75,14 @@ html, body {
     padding-bottom: 220px; }
 
 p {
-  line-height: 140%; }
+  line-height: 28px; }
 
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #3aa0b6; }
+  color: #b92835; }
   a:hover {
-    color: #59b6ca; }
-
-#footer a {
-  color: #59b6ca;
-  text-shadow: none; }
-  #footer a:hover {
-    color: #80c7d6; }
+    color: #d63f4d; }
 
 .primary_font, h1 {
   font-family: Museo Slab, Helvetica Neue, Helvetica, arial, sans-serif; }
@@ -97,14 +91,14 @@ a {
   font-family: Melbourne, Helvetica Neue, Helvetica, arial, sans-serif; }
 
 h1 {
-  color: #a6b96a;
+  color: #3b3f3f;
   font-size: 52px;
   text-transform: lowercase; }
 
 #header h1 {
   font-size: 42px; }
   #header h1:hover {
-    color: #bbc98d; }
+    color: #545959; }
 
 .highlight {
   font-family: Monaco, monospace;
@@ -131,7 +125,7 @@ h1 {
         color: black;
         -webkit-transition: color 0.3s ease-in; }
         #name #social_links li a:hover {
-          color: #3aa0b6; }
+          color: #b92835; }
 
 #projects {
   width: 100%; }
@@ -145,8 +139,7 @@ h1 {
       font-family: Museo Slab; }
       #projects .project .caption .company {
         color: #e54a4a;
-        font-size: 24px;
-        text-shadow: white 1px 1px 0; }
+        font-size: 24px; }
         #projects .project .caption .company:hover {
           color: #eb7777; }
     #projects .project a {
@@ -190,30 +183,32 @@ h1 {
   font-size: 24px;
   text-align: center; }
   .posts a {
-    color: #3aa0b6; }
+    color: #b92835; }
   .posts li {
     margin: 10px 0; }
 
 .post {
   padding: 10px 0 70px 0;
-  text-shadow: white 1px 1px 0;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #3b3f3f; }
   .post img {
     display: block;
     margin: 0 auto;
-    border: 10px solid rgba(120, 120, 120, 0.6); }
+    border: 4px solid rgba(0, 0, 0, 0.5); }
   .post h1, .post h4 {
     text-align: center; }
   .post h1 {
-    color: #a6b96a;
+    color: #3b3f3f;
     text-transform: none; }
   .post .title {
     font-weight: bold;
-    color: #a6b96a;
+    color: #3b3f3f;
     font-size: 36px;
     margin-bottom: 25px; }
   .post a {
     text-shadow: none; }
+  .post p {
+    color: #545959; }
 
 .clear {
   clear: both; }
@@ -247,6 +242,8 @@ h3 {
     background: url("/images/blog_large.png") no-repeat; }
     .navigation.blog:hover {
       background: url("/images/blog_large.png") 0 181px; }
+    .navigation.blog p {
+      margin-left: 7px; }
   .navigation.twitter {
     background: url("/images/twitter_large.png") no-repeat; }
     .navigation.twitter:hover {
@@ -258,11 +255,11 @@ h3 {
   .navigation p {
     position: absolute;
     text-transform: lowercase;
-    bottom: -35px;
-    left: 72px;
-    color: #3aa0b6; }
+    bottom: -48px;
+    left: 68px;
+    color: #b92835; }
   .navigation:hover p {
-    color: #59b6ca; }
+    color: #d63f4d; }
 
 #header, #footer {
   margin-bottom: 40px; }
@@ -289,10 +286,6 @@ h3 {
       #header .navigation.github:hover, #footer .navigation.github:hover {
         background: url("/images/github.png") 0 48px; }
 
-#footer .navigation {
-  display: inline-block;
-  float: none; }
-
 .navigation_links {
   width: 200px;
   margin: 40 auto 0; }
@@ -306,12 +299,20 @@ h3 {
   width: 100%;
   background: rgba(35, 35, 35, 0.5);
   padding: 20px 0;
-  color: white;
-  text-shadow: #777777 -1px -1px 0;
+  color: #d2d3ca;
   position: relative;
   margin-top: -220px;
   margin-bottom: 0px;
-  height: 180px; }
+  height: 180px;
+  clear: both; }
+  #footer .navigation {
+    display: inline-block;
+    float: none; }
+  #footer a {
+    text-shadow: none;
+    color: #da5460; }
+    #footer a:hover {
+      color: #df6974; }
   #footer img {
     border-radius: 10px;
     margin-right: 10px;
