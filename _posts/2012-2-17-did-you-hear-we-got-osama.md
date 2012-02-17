@@ -1,5 +1,5 @@
 ---
-  title: Did You Guys Hear We Got Osama?
+  title: Did You Hear We Got Osama?
   layout: post
 ---
 
