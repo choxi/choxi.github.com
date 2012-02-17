@@ -138,10 +138,10 @@ h1 {
       margin-bottom: 10px;
       font-family: Museo Slab; }
       #projects .project .caption .company {
-        color: #e54a4a;
+        color: #89a6a8;
         font-size: 24px; }
         #projects .project .caption .company:hover {
-          color: #eb7777; }
+          color: #a6bcbe; }
     #projects .project a {
       width: 360px; }
     #projects .project .graphic {
@@ -173,11 +173,11 @@ h1 {
 
 .pretty a {
   font-family: Museo Slab;
-  color: #e54a4a;
+  color: #89a6a8;
   font-size: 30px;
   text-shadow: #c8d885 0px 1px 1px; }
   .pretty a:hover {
-    color: #eb7777; }
+    color: #a6bcbe; }
 
 .posts {
   font-size: 24px;
@@ -291,7 +291,7 @@ h3 {
   margin: 40 auto 0; }
 
 ::selection {
-  background: #eb7777;
+  background: #a6bcbe;
   color: white;
   text-shadow: none; }
 
@@ -310,9 +310,10 @@ h3 {
     float: none; }
   #footer a {
     text-shadow: none;
-    color: #da5460; }
+    color: #89a6a8;
+    text-decoration: underline; }
     #footer a:hover {
-      color: #df6974; }
+      color: #e37e87; }
   #footer img {
     border-radius: 10px;
     margin-right: 10px;

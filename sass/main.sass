@@ -11,6 +11,8 @@ $highlight_1: rgb(59,63,63)
 $highlight_2: darken(rgb(210,46,61), 6)
 $highlight_3: rgb(229,74,74)
 
+$highlight_3: rgb(137,166,168)
+
 $footer_height: 220px
 
 // Layout definition
@@ -266,9 +268,10 @@ h3
     float: none
   a
     text-shadow: none
-    color:  lighten($highlight_2, 15)
+    color:  $highlight_3
+    text-decoration: underline
     &:hover
-      color: lighten($highlight_2, 20)
+      color: lighten($highlight_2, 25)
   img
     border-radius: 10px
     margin-right: 10px
