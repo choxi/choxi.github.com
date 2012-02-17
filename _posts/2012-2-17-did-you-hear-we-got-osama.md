@@ -27,4 +27,5 @@ Give it a try. You'll be surprised how much of the world you can tune out with n
 
 ---
 
+Comment on this post at [Hacker News](https://news.ycombinator.com/item?id=3604907)
 Thanks to [@h_bash](http://twitter.com/h_bash) for editing my post.
