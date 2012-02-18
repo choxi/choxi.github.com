@@ -8,6 +8,7 @@ I think I got my first computer in 2004 when I went to a boarding school in Illi
 It's only in hindsight that I see what felt like self improvement at the time was actually the beginning of a terrible addiction. It got overwhelming really fast. I added filters, I tried a dozen different RSS readers, I even learned to speed read over the course of a few years just to keep pace with my reader. This was serious business. How would I keep up to date with the Human Genome Project and Bush's latest folly if I started slacking on my Reader queue? Over time, I'd get better at reading quickly to the point where I was just skimming headlines. Technology would improve so I could consume news within a 140 character limit and stash the important items to "Read it Later".
 
 ![I Am A Consumer Whore](/images/ConsumerWhore.jpg)
+<p class="caption">(Image from Don Hertzfeldt's <a href="http://www.bitterfilms.com/rejected.html">"Rejected"</a>)</p>
 
 My freshman year of college, Obama was running for president and the murmurings of the debt crisis had begun. Despite the 20-30 articles I consumed every day and the catch phrases I learned to repeat in front of my friends to sound knowledgable, I still had no idea what was actually going on.
 
