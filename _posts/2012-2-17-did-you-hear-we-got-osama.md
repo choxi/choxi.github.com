@@ -18,7 +18,7 @@ What followed were the most productive three years of my life.
 
 That's when I learned an important truth about news. Whether it's TechCrunch, The New York Times, Wired, or Fox News: their job isn't to educate or inform you, it's to entertain you. You're not reading them because you think you'll be more knowledgable and informed, you're reading them because you want to be distracted -- because consuming has a more immediate reward than creating.
 
-Did you guys hear about the Path scandal? Did you know Kickstarter is completely changing the fundraising landscape? "That's just tech gossip, I don't read the gossip," you might say. Well what about the 30 articles that come up each day about how to do do X better? It doesn't even matter if each of those posts had a fantastic message, do you really think your reading an article can replace the deliberate effort it takes to do anything better?
+Did you guys hear about the Path scandal? Did you know Kickstarter is completely changing the fundraising landscape? "That's just tech gossip, I don't read the gossip," you might say. Well what about the 30 articles that come up each day about how to do X better? It doesn't even matter if each of those posts had a fantastic message, do you really think your reading an article can replace the deliberate effort it takes to do anything better?
 
 Say that you somehow didn't know we found and killed Osama Bin Laden last year, I claim that your life would be virtually the same if you did. What if you didn't even know who the current president was? Besides for the social embarassment, would your day-to-day be any different? If you followed the news daily, when it came time to cast your ballot could you convince yourself that you're making an informed vote and not just one based on questionable media factoids and the dogma of your closest social circle?
 
@@ -27,6 +27,8 @@ Say that you somehow didn't know we found and killed Osama Bin Laden last year, 
 Give it a try. You'll be surprised how much of the world you can tune out with no negative side effects.
 
 ---
+
+You should follow me on twitter [here](http://twitter.com/choxi)
 
 Comment on this post at [Hacker News](https://news.ycombinator.com/item?id=3604907)
 
