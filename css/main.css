@@ -66,7 +66,7 @@ blockquote, q {
 html, body {
   font-family: Helvetica Neue, Helvetica, Arial;
   width: 100%;
-  background: url("/images/soft_wallpaper.png") repeat;
+  background: url("/images/bg_noise.jpg") repeat;
   color: #555555; }
 
 #wrap {
@@ -80,9 +80,9 @@ p {
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #b92835; }
+  color: #89a6a8; }
   a:hover {
-    color: #d63f4d; }
+    color: #a6bcbe; }
 
 .primary_font, h1 {
   font-family: Museo Slab, Helvetica Neue, Helvetica, arial, sans-serif; }
@@ -125,7 +125,7 @@ h1 {
         color: black;
         -webkit-transition: color 0.3s ease-in; }
         #name #social_links li a:hover {
-          color: #b92835; }
+          color: #89a6a8; }
 
 #projects {
   width: 100%; }
@@ -189,8 +189,8 @@ h1 {
 
 .post {
   padding: 10px 0 70px 0;
-  font-size: 16px;
-  color: #3b3f3f; }
+  color: #3b3f3f;
+  font-size: 20px; }
   .post .caption {
     text-align: center;
     margin-top: -18px;
@@ -212,7 +212,8 @@ h1 {
   .post a {
     text-shadow: none; }
   .post p {
-    color: #545959; }
+    color: #545959;
+    font-size: 20px; }
 
 .clear {
   clear: both; }
@@ -261,9 +262,9 @@ h3 {
     text-transform: lowercase;
     bottom: -48px;
     left: 68px;
-    color: #b92835; }
+    color: #89a6a8; }
   .navigation:hover p {
-    color: #d63f4d; }
+    color: #a6bcbe; }
 
 #header, #footer {
   margin-bottom: 40px; }
@@ -317,7 +318,7 @@ h3 {
     color: #89a6a8;
     text-decoration: underline; }
     #footer a:hover {
-      color: #e37e87; }
+      color: #d2ddde; }
   #footer img {
     border-radius: 10px;
     margin-right: 10px;

@@ -8,10 +8,8 @@ $width: 650px
 $light_grey: #B5B5B5
 
 $highlight_1: rgb(59,63,63)
-$highlight_2: darken(rgb(210,46,61), 6)
-$highlight_3: rgb(229,74,74)
-
 $highlight_3: rgb(137,166,168)
+$highlight_2: $highlight_3
 
 $footer_height: 220px
 
@@ -19,8 +17,7 @@ $footer_height: 220px
 html, body
   font-family: Helvetica Neue, Helvetica, Arial
   width: 100%
-  background: url("/images/soft_wallpaper.png") repeat
-  //background: url("/images/bg_noise.jpg") repeat
+  background: url("/images/bg_noise.jpg") repeat
   color: #555
 
 #wrap
@@ -145,8 +142,8 @@ h1
 
 .post
   padding: 10px 0 70px 0
-  font-size: 16px
   color: $highlight_1
+  font-size: 20px
   .caption
     text-align: center
     margin-top: -18px
@@ -170,6 +167,7 @@ h1
     text-shadow: none
   p
     color: lighten($highlight_1, 10)
+    font-size: 20px
 
 .clear
   clear: both
