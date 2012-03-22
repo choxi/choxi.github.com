@@ -106,7 +106,9 @@ h1 {
   padding: 20px;
   margin: 10px 0;
   text-shadow: none;
-  line-height: 132%; }
+  line-height: 132%;
+  overflow-x: scroll;
+  font-size: 16px; }
 
 .container {
   width: 650px;
@@ -221,7 +223,9 @@ h1 {
 blockquote {
   padding-left: 20px;
   border-left: 3px solid #cccccc;
-  margin: 20px 0; }
+  margin: 20px 0;
+  font-style: italic;
+  font-weight: bold; }
 
 p {
   margin: 20px 0; }

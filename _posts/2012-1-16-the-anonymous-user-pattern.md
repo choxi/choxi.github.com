@@ -129,11 +129,6 @@ identity (Identity) from the login (User) would, with some extra work,
 allow admins to temporarily claim another user's identity without
 requiring the login credentials.
 
-**Followup:** I'm a firm believer in the Lean/Scientific Method of developing
-features so I'm a little ashamed that I don't have metrics to support
-the anonymous user pattern. I'll try to find the time to retroactively
-add a test in and do a follow up post.
-
 ---
 
 Comment on this post at [Hacker News](http://news.ycombinator.com/item?id=3476206)
