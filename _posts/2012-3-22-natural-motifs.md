@@ -22,3 +22,9 @@ It isn't a new concept to draw inspiration from natural engineering, but it's wo
 I'm sure there's still much more to be borrowed from these natural motifs too. For example, I try to use the idea of "powerful systems emerging from simple rules" when I design software. In practice this means we try to build complex systems by designing many components that abide by simple rules at Bloc. I also look at Bloc's technology as perpetually growing and eventually deteriorating just like any biological system, as opposed to a machine that gets engineered once and performs its duties indefinitely.
 
 I'm not sure about how much practical engineering inspiration you can get from following these threads of thought, but it seems to me that we're constantly converging on solutions that have existed for a very long time in the natural world. It's worth asking yourself, next time you encounter a dicey problem, What Would Nature Do?
+
+---
+
+You should follow me on twitter [here](http://twitter.com/choxi)
+
+Thanks to [@h_bash](http://twitter.com/h_bash) for editing my post.
