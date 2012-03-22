@@ -3,6 +3,9 @@
   layout: post
 ---
 
+![fibonacci spiral staircase](/images/fibonacci_spiral.jpg)
+<p class="caption">photo credit: <a href="http://www.flickr.com/photos/doruchan/4133851219/">doruchan</a></p>
+
 If you've ever seen "2001: A Space Odyssey", you'll probably remember that one scene where the proto-humans first pick up a bone and use it to hunt, and then to attack each other. That was the beginning of one very powerful idea: tools give you the leverage to do things better, or to do things you couldn't do before.
 
 You can step back even further. Before apes, there were only cells. Single celled organisms collected together to form multi-celled organisms. And then multi-celled organisms would eventually form to create multi-organism cultures. It turned out that communities being larger than the sum of their parts was also a powerful idea.
