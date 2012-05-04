@@ -30,7 +30,6 @@ p
 
 a
   text-decoration: none
-  font-weight: bold
   color: $highlight_2
   &:hover
     color: lighten($highlight_2, 10)
@@ -46,6 +45,7 @@ h1
   font-size: 52px
   text-transform: lowercase
   @extend .primary_font
+
 #header h1
   font-size: 42px
   &:hover
@@ -143,7 +143,7 @@ h1
     margin: 10px 0
 
 .post
-  padding: 10px 0 70px 0
+  padding: 10px 0 50px 0
   color: $highlight_1
   font-size: 20px
   .caption
@@ -261,7 +261,7 @@ h3
 
 #footer
   width: 100%
-  background: rgba(35,35,35, 0.5)
+  background: rgba(35,35,35, 0.6)
   padding: 20px 0
   color: rgb(210,211,202)
   position: relative
@@ -269,6 +269,8 @@ h3
   margin-bottom: 0px
   height: 180px
   clear: both
+  p
+    font-size: 18px
   .navigation
     display: inline-block
     float: none
@@ -289,7 +291,8 @@ strong
   font-weight: bold
 
 li
-  margin: 5px 0
+  margin: 20px 0
+  line-height: 28px
 
 ul
   list-style: disc
