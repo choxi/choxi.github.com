@@ -34,3 +34,4 @@ Certainly it helped that they were in YCombinator and got more traction than we 
 
 ---
 
+Comment on this post on [Hacker News](http://news.ycombinator.com/item?id=3929827)
