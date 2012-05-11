@@ -3,7 +3,7 @@
   layout: post
 ---
 
-In the spring of 2012, I decided to jump on the StartupBus. The [story behind the StartupBus is pretty interesting](http://startupbus.com/americas/about), but the gist of it is that every year on the drive down to SXSW, teams from different cities compete to launch a product during the 48 hour drive from their hometown to Austin, Texas.
+In the spring of 2011, I decided to jump on the StartupBus. The [story behind the StartupBus is pretty interesting](http://startupbus.com/americas/about), but the gist of it is that every year on the drive down to SXSW, teams from different cities compete to launch a product during the 48 hour drive from their hometown to Austin, Texas.
 
 If you want to read it, [here's the actual story of what we built on the bus](http://getshotput.tumblr.com/). Twilio also [wrote about us here](http://www.twilio.com/blog/2011/03/shotput-reaches-startup-bus-finals-at-sxsw.html). Basically, we built a service for organizations to build up SMS newsletters. You could create an SMS newsletter with an assigned hashtag, and when others texted the hashtag to a phone number they would be subscribed to that newsletter. The owner of that hashtag could then push messages to everyone that had subscribed. 
 [Check out the demo video](http://www.youtube.com/watch?v=d971gwC2aL8).
