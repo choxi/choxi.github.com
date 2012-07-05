@@ -30,6 +30,7 @@ The Software Craftsmanship and Agile movements have in large been driven by the 
 Process is the nemesis of a startup and the correct dosage of chaos is its nurturing mother. With all of that in mind, I'd like to propose some principles for startup hackers who find themselves too constrained by Agile practices:
 
 ##Rule #1: Don't Test (All) Your Code
+Certainly don't ever test drive it (it's ok, no one does anything more than pay TDD lip service anyway).
 
 Here's the thing: tests require maintenance just as much as production code. Here's an example: We recently restructured our data model at Niroka to allow multiple "sessions" for a course. This involved adding an abstraction between "courses" and "enrollments", where if I had written unit tests I would have found myself essentially rewriting all of them to respect the new abstraction layer. It probably would have taken longer than implementing the damn feature.
 
