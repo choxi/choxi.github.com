@@ -30,13 +30,21 @@ The Software Craftsmanship and Agile movements have in large been driven by the 
 Process is the nemesis of a startup and the correct dosage of chaos is its nurturing mother. With all of that in mind, I'd like to propose some principles for startup hackers who find themselves too constrained by Agile practices:
 
 ##Rule #1: Don't Test (All) Your Code
-Certainly don't ever test drive it (it's ok, no one does anything more than pay TDD lip service anyway).
+<del>
 
-Here's the thing: tests require maintenance just as much as production code. Here's an example: We recently restructured our data model at Niroka to allow multiple "sessions" for a course. This involved adding an abstraction between "courses" and "enrollments", where if I had written unit tests I would have found myself essentially rewriting all of them to respect the new abstraction layer. It probably would have taken longer than implementing the damn feature.
+<p>Certainly don't ever test drive it (it's ok, no one does anything more than pay TDD lip service anyway).</p>
 
-Here's what you do instead: write *integration* tests for the critical parts of your application. For Rails, this means a high-level cucumber test for things like, in our case, "signing up", "creating a class", and "enrolling in a class".  It's still maintenance, but it's a tradeoff we like because it's tedious to manually test those and we really, really care if they break.
+<p>Here's the thing: tests require maintenance just as much as production code. Here's an example: We recently restructured our data model at Niroka to allow multiple "sessions" for a course. This involved adding an abstraction between "courses" and "enrollments", where if I had written unit tests I would have found myself essentially rewriting all of them to respect the new abstraction layer. It probably would have taken longer than implementing the damn feature.</p>
 
-The point is, code evolves. It's never "done", so don't write tests that presume it will be static and your interfaces won't change.
+<p>Here's what you do instead: write *integration* tests for the critical parts of your application. For Rails, this means a high-level cucumber test for things like, in our case, "signing up", "creating a class", and "enrolling in a class".  It's still maintenance, but it's a tradeoff we like because it's tedious to manually test those and we really, really care if they break.</p>
+
+<p>The point is, code evolves. It's never "done", so don't write tests that presume it will be static and your interfaces won't change.</p>
+
+</del>
+
+**EDIT:** I'd like to retract this rule as I think it oversimplifies the nuance of knowing when and how thoroughly to test your code. I think Kent Beck explains it much better than I ever could:
+
+> "I get paid for code that works, not for tests, so my philosophy is to test as little as possible to reach a given level of confidence (I suspect this level of confidence is high compared to industry standards, but that could just be hubris). If I don’t typically make a kind of mistake (like setting the wrong variables in a constructor), I don't test for it."
 
 ##Rule #2: Stop Being Such a Nerd
 "Do you prefer git rebase or git merge?"
